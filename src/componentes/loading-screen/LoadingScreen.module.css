@@ -1,0 +1,33 @@
+.loadingscreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;/* Fondo semi-transparente para atenuar la pantalla detrás del loader */
+  }
+  
+  .loadingscreen img {
+    width: 250px;  /* Ajusta el tamaño según tus necesidades */
+    height: 250px; /* Ajusta el tamaño según tus necesidades */
+  }
+  
+  .loadingtext {
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 10px;
+    animation: pulse 1.5s infinite;  /* Animación de pulso */
+  }
+  
+  @keyframes pulse {
+    0% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
+  

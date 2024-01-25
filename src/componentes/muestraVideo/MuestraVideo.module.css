@@ -1,0 +1,40 @@
+.BloqueA {
+    background-color: rgb(54, 68, 93);
+    height: auto;
+    min-width: 400px;
+    margin: 60px;
+    display: grid;
+    grid-template-columns: 40% auto;
+    border-radius: 10px;
+  }
+  
+  .ImagenContainer {
+    overflow: hidden;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .Imagen {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .ContenedorDeTexto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    gap: 20px;
+  }
+  
+  .Titulo {
+    color: white;
+    font-size: 38px;
+  }
+  
+  .Texto {
+    color: white;
+    font-size: 18px;
+  }
+  

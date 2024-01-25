@@ -1,0 +1,28 @@
+.Contenedor
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.LineaD
+{
+    background-color: #B0E8BD;
+    height: 5px;
+    width: 100%;
+    margin-top: 40px;
+}
+.LineaI
+{
+    background-color: #B0E8BD;
+    height: 5px;
+    width: 100%;
+    margin-top: -10px;
+}
+.Titulo
+{
+
+    margin: 0 2.5% 0 2.5%;
+    font-size: 50px;
+    color: #B0E8BD;
+}

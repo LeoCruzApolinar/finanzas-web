@@ -1,0 +1,14 @@
+.Bloque
+{ 
+    margin: 60PX;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.Titulo
+{
+    font-size: 80px;
+    color: #fff;
+}

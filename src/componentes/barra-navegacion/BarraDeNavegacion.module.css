@@ -1,0 +1,40 @@
+.BarraNavegacion {
+    height: 80px;
+    background-color: #1E1E1E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px 0 60px;
+
+}
+
+.BotonesCotenedor
+{
+    display: flex;
+    gap: 20px;
+}
+.Botones {
+    border-radius: 5px;
+    border: 2px solid #B0E8BD;
+    background-color: transparent ;
+    font-size: 100%;
+    padding: 10px;
+    color: #B0E8BD;
+    transition: background-color 0.3s; 
+    cursor: pointer;
+}
+
+.Botones:hover {
+    background-color: rgb(54, 68, 93); /* Color que deseas al pasar el mouse por encima */
+    color: #fff;
+    border: 2px solid rgb(54, 68, 93);
+}
+
+.Logo
+{
+    height: 60%;
+
+}
+.Icono {
+    margin-right: 8px; /* Ajusta el espacio entre el ícono y el texto */
+  }

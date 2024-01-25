@@ -1,0 +1,13 @@
+/* Estilos base */
+.Bloque {
+  display: flex;
+  /* grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); */
+  gap: 30px;
+  margin: 60px;
+  /* justify-items: center; */
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
